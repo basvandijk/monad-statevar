@@ -1,0 +1,21 @@
+name: monad-statevar
+version: 0.1
+cabal-version: >= 1.6
+license: BSD3
+license-file: LICENSE
+author: Bas van Dijk <v.dijk.bas@gmail.com>
+        Sven Panne <sven.panne@aedion.de>
+maintainer: Bas van Dijk <v.dijk.bas@gmail.com>
+category: Data
+build-type: Simple
+synopsis: Get and set state variables in a monad
+description:
+
+source-repository head
+  Type: darcs
+  Location: http://code.haskell.org/~basvandijk/monad-statevar
+
+library
+  exposed-modules: Control.Monad.StateVar
+  ghc-options: -Wall
+  build-depends: base >= 4.3 && < 4.5
